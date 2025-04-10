@@ -11,7 +11,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
-      // إضافة هذا السطر لاستخدام البناء الصحيح لـ Vue
       'vue': 'vue/dist/vue.esm-bundler.js',
     },
   },
